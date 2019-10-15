@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#000000"
+            android:text="center"
+            android:textColor="#ffffff"
+            /> <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:background="#a30e0e"
+        android:text="left"
+        android:layout_toLeftOf="@+id/btn1"
+        android:textColor="#ffffff"
+        />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_centerInParent="true"
+            android:background="#27a30e"
+            android:text="top"
+            android:layout_above="@+id/btn1"
+            android:textColor="#ffffff"
+            />  <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:background="#0e1fa3"
+        android:text="right"
+        android:layout_toRightOf="@+id/btn1"
+        android:textColor="#ffffff"
+        /><Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:background="#a3970e"
+        android:text="bottom"
+        android:layout_below="@+id/btn1"
+        android:textColor="#ffffff"
+        />
+
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
